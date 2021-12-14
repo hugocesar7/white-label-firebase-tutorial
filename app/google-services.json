@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "100903484352",
+    "project_id": "treinamento-white-label",
+    "storage_bucket": "treinamento-white-label.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100903484352:android:0151f189df2fc8a4682625",
+        "android_client_info": {
+          "package_name": "br.com.treinamento.whitelabeltutorial.bike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100903484352-rcoj083pvnhrd0pf1cjdmrlvrgqcne1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0E2uPeVZpea-uth5AKclRzOHc_UlkXQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100903484352-rcoj083pvnhrd0pf1cjdmrlvrgqcne1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100903484352:android:2afdb3650616f0f6682625",
+        "android_client_info": {
+          "package_name": "br.com.treinamento.whitelabeltutorial.bike.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100903484352-rcoj083pvnhrd0pf1cjdmrlvrgqcne1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0E2uPeVZpea-uth5AKclRzOHc_UlkXQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100903484352-rcoj083pvnhrd0pf1cjdmrlvrgqcne1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100903484352:android:0dbb528bde8773be682625",
+        "android_client_info": {
+          "package_name": "br.com.treinamento.whitelabeltutorial.car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100903484352-rcoj083pvnhrd0pf1cjdmrlvrgqcne1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0E2uPeVZpea-uth5AKclRzOHc_UlkXQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100903484352-rcoj083pvnhrd0pf1cjdmrlvrgqcne1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100903484352:android:44188e61e4cdd2e1682625",
+        "android_client_info": {
+          "package_name": "br.com.treinamento.whitelabeltutorial.car.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100903484352-rcoj083pvnhrd0pf1cjdmrlvrgqcne1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0E2uPeVZpea-uth5AKclRzOHc_UlkXQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100903484352-rcoj083pvnhrd0pf1cjdmrlvrgqcne1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
