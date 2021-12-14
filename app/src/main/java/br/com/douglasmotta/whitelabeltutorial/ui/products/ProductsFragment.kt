@@ -63,9 +63,19 @@ class ProductsFragment : Fragment() {
     }
 
     private fun initObservers() {
-        viewModel.productsData.observe(viewLifecycleOwner) { products ->
+        viewModel.viewStateData.observe(viewLifecycleOwner) { viewState ->
+            binding.flipperContent.displayedChild = when(viewState){
+                is ProductsViewModel.ViewState.ShowProducts -> {
+                    productsAdapter.submitList(viewState.products)
+                    FLIPPER_POSITION_SUCCESS
+                }
+                is ProductsViewModel.ViewState.ShowError -> {
+                    binding.textError.text = getString(viewState.messageResId)
+                    FLIPPER_POSITION_ERROR
+                }
+            }
+
             binding.swipeProducts.isRefreshing = false
-            productsAdapter.submitList(products)
         }
 
         viewModel.addButtonVisibilityData.observe(viewLifecycleOwner) { visibility ->
@@ -107,5 +117,10 @@ class ProductsFragment : Fragment() {
     override fun onDestroyView() {
         _binding = null
         super.onDestroyView()
+    }
+
+    companion object {
+        private const val FLIPPER_POSITION_ERROR = 0
+        private const val FLIPPER_POSITION_SUCCESS = 1
     }
 }
